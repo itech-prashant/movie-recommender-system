@@ -1,0 +1,22 @@
+$ pip install streamlit
+$ streamlit run app.py
+
+-Install heroku cli.
+-Restart PC.
+
+$ heroku login
+
+Create a new Git repository
+Initialize a git repository in a new or existing directory
+
+$ git init
+$ heroku git:remote -a movie-recommender-prashant
+
+Deploy your application
+Commit your code to the repository and deploy it to Heroku using Git.
+
+$ git add .
+$ git config --global user.email "itech.prash@gmail.com"
+$ git config --global user.name "Prashant"
+$ git commit -am "make it better"
+$ git push heroku master
